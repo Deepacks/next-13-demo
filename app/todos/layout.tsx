@@ -1,6 +1,6 @@
 import TodosList from '../../components/TodosList'
 
-export default async function RootLayout({
+export default async function TodosLayout({
   children,
 }: {
   children: React.ReactNode
