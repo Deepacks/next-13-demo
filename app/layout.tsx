@@ -1,7 +1,8 @@
 import { Inter } from 'next/font/google'
 import '@/styles/globals.scss'
 
-import Header from '../components/@ui/Header'
+import Header from '../components/Header'
+import { PropsWithChildren } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
@@ -9,11 +10,7 @@ export const metadata = {
   description: 'Next 13 example',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
       <body className={inter.className}>
