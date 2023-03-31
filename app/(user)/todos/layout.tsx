@@ -1,5 +1,6 @@
 import { PropsWithChildren } from 'react'
-import TodosList from '../../components/TodosList'
+
+import TodosList from '@/components/TodosList'
 
 export default async function TodosLayout({ children }: PropsWithChildren) {
   const asyncTodoList = await TodosList()

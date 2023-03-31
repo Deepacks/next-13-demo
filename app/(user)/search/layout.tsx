@@ -1,5 +1,6 @@
-import Search from '@/components/Search'
 import { PropsWithChildren } from 'react'
+
+import Search from '@/components/Search'
 
 export default function SearchLayout({ children }: PropsWithChildren) {
   return (

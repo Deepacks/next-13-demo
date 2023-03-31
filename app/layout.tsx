@@ -1,8 +1,8 @@
+import { PropsWithChildren } from 'react'
 import { Inter } from 'next/font/google'
 import '@/styles/globals.scss'
 
 import Header from '../components/Header'
-import { PropsWithChildren } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 export const metadata = {

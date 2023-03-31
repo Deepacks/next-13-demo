@@ -1,5 +1,5 @@
-import { Todo, TodoList } from '@/types/Todo.type'
 import { notFound } from 'next/navigation'
+import { Todo, TodoList } from '@/types/Todo.type'
 
 // default: true
 // forces only SSG (see -> generateStaticParams() below)

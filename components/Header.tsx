@@ -4,6 +4,7 @@ const routes = [
   { href: '/', placeholder: 'Home' },
   { href: '/todos', placeholder: 'Todos' },
   { href: '/search', placeholder: 'Search' },
+  { href: '/developer', placeholder: 'Developer' },
 ]
 
 export default function Header() {
