@@ -1,4 +1,4 @@
-import TodosList from './TodosList'
+import TodosList from '../../components/TodosList'
 
 export default async function RootLayout({
   children,
